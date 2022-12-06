@@ -1,0 +1,13 @@
+Using firebase storage to add image and display them
+
+
+random names  using uuid library
+
+import getstorea from firebase/storage
+getstorage(app)
+
+import ref uploadbytes listall from firebase/storage
+import v4 from uuid
+
+ ref(storage,'folderinbucket/${image.name + v4() }')
+ uploadbytes(ref,Image).them(()=>{alert image uploaded})

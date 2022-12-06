@@ -1,0 +1,36 @@
+.logincontainer{
+    display: flex;
+    height: 100vh;
+
+}
+
+.logincontainer video{
+    width: 100%;
+    object-fit: fill;
+   
+}
+
+.logincontainer button{
+   position: fixed;
+   transform: translate(-50%,50%);
+   top: 50%;
+   left: 50%;
+   cursor: pointer;
+   width: 200px;
+   display: flex;
+   align-items: center;
+   border: none;
+   border-radius: 10px;
+   box-sizing: border-box;
+   padding-left: 10px;
+
+
+}
+
+.logincontainer button:hover{
+    background-color: #1E90FF;
+}
+
+.logincontainer button h3{
+    margin-left: 10px;
+}

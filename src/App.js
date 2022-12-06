@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Login from './login/Login';
+import Homepage from './components/Homepage/Homepage';
+import {Routes ,Route} from 'react-router-dom'
+import CreatePin from './components/create_pin/CreatePin';
+import { UserContextProvider } from './context/UserContext';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+          
+              <Routes>
+                <Route path='/' element={<Homepage />} />
+                <Route path='/login' element={<Login />}/>
+                <Route path='/create' element={<CreatePin />}/>
+              </Routes>
+          
   );
 }
 

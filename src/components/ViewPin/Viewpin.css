@@ -1,0 +1,52 @@
+.ViewPinContainer{
+    position: fixed;
+    width: 900px;
+    height: 80vh;
+    background-color: white;
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+
+}
+
+.ViewPinContainer .ViewpinInmageContainer{
+      box-sizing: border-box;
+      padding: 15px;
+      flex: 1.6;
+      border-radius: 
+
+ 
+}
+
+.ViewPinContainer .ViewpinInfoContainer{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items:flex-start;
+    justify-content: center;
+    padding-left: 40px;
+    
+
+}
+
+.ViewPinContainer .ViewpinInmageContainer img{
+     
+    width:  100%;
+    height: 100%;
+    border-radius: 15px;
+    
+
+}
+
+.ViewPinContainer .cancelIcon{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+
+}

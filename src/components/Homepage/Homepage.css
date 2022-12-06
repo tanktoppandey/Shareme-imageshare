@@ -1,0 +1,125 @@
+.NavbarContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.NavbarContainer .Navbarleftside{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+    
+}
+
+.NavbarContainer .Navbarrightside{
+    flex:0.5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.NavbarContainer .divSearchBar{
+    border-radius: 20px;
+    background-color: lightgray;
+    width: 600px;
+    height: 40px;
+    padding: 5px;
+    flex: 2;
+}
+
+.NavbarContainer input{
+    width: 600px;
+    height: 40px;
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    margin-left: 5px;    
+}
+
+.NavbarContainer a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.NavbarContainer .navlinkscontainer{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+
+.NavbarContainer button{
+    border: none;
+    background-color: transparent;
+    margin-right: 20px;
+    width: 60px;
+}
+
+.navlinkscontainer img{
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+
+.my-masonry-grid {
+    display: -webkit-box; /* Not needed if autoprefixing */
+    display: -ms-flexbox; /* Not needed if autoprefixing */
+    display: flex;
+    margin-left: -30px; /* gutter size offset */
+    width: auto;
+
+  }
+
+
+  .imageContainerHome img{
+   
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+
+    
+    
+   
+  }
+
+  /* Style your items */
+  .my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+    background-color: transparent;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 330px;
+    max-height: 512px;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 10px;
+
+    
+
+  }
+
+.my-masonry-grid_column {
+    padding-left: 30px; /* gutter size */
+    background-clip: padding-box;
+  }
+  
+
+
+  .PincontainerHome{
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+  }
