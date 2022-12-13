@@ -8,5 +8,5 @@ Shareme is a Pinterest like web application built using React and Firebase, Shar
 -> Save Pins 
 -> Create your own pins
 
-Application is still in Progress 
+Application is still in Progress.........
 
